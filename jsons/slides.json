@@ -1,0 +1,128 @@
+[
+    {
+        "url": "/imgs/section-slide/ilustracao-diarista.png",
+        "title": "Limpeza de casa?",
+        "about": "Está em busca de alguém para realizar essa diária? Na Bicco, você encontra profissionais disponíveis mais próximos de você, prontos para negociar as condições do serviço. Vai alugar seu apartamento? Chame um profissional para deixar seu apartamento impecável.",
+        "button1": "Ver profissionais",
+        "button2": "Tire dúvidas"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-mudanca.png",
+        "title": "Vai mudar?",
+        "about": "Com a Bicco, você tem acesso aos melhores fretistas do seu bairro. Ajuste a distância, o dia e o preço do frete. Além disso, agende sua mudança com antecedência para evitar imprevistos. É possível solicitar mais de um dia de serviço.",
+        "button1": "Simular frete",
+        "button2": "Tipo de transporte"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-azulejista.png",
+        "title": "Azulejo novo?",
+        "about": "Cansou do visual da sua casa ou seus azulejos estão desgastados e quebrados pelo tempo? Venha para a Bicco! Aqui você recebe recomendações de azulejos, levando em conta beleza e custo-benefício. E o melhor: agende o serviço!",
+        "button1": "Recomendações",
+        "button2": "Lojas"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-cuidadora-animais.png",
+        "title": "Pet sozinho?",
+        "about": "Chegou a tão esperada viagem de Ano Novo, mas você não sabe onde deixar seu animal de estimação? Na Bicco, encontre profissionais especializados em cuidar do seu pet. Escolha entre opções como cuidados e babá para o seu amiguinho nas subcategorias.",
+        "button1": "Subcategorias Pet",
+        "button2": "Saiba mais"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-encanador.png",
+        "title": "Casa virando dilúvio?",
+        "about": "Ih, a goteira virou uma cachoeira? Na Bicco, encontre os melhores encanadores do seu bairro. Infelizmente, não temos o Mario Bros, mas os profissionais disponíveis são altamente competentes. Se precisa de reparos, conte conosco.",
+        "button1": "Encanadores",
+        "button2": "Comunidade"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-montador-moveis.png",
+        "title": "Imóvel novo sem montador?",
+        "about": "Comprando um imóvel pela internet e sem um montador disponível? Sem problemas! A Bicco oferece uma lista dos melhores montadores de imóveis com base na sua localização. E se for um condomínio, também temos opções para você. Não se preocupe!",
+        "button1": "Condomínios",
+        "button2": "Detalhes"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-tecnico-informatica.png",
+        "title": "Problema no PC?",
+        "about": "Quer fazer um upgrade em sua máquina, mas tem receio de mexer sem ter a experiência certa? Solicite um técnico de informática para um vídeo chat e receba orientações passo a passo sobre o problema, em vez de precisar que o profissional se desloque até sua casa.",
+        "button1": "Solicite uma emergência",
+        "button2": "Saiba mais"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-tecnico-eletronica.png",
+        "title": "TV queimou?",
+        "about": "Chegar o final de semana e ver seu time golear o adversário não tem preço, certo? Mas na hora do gol, a TV queima. Na Bicco, encontre os melhores técnicos de eletrônica para reviver sua TV e evitar contratempos futuros.",
+        "button1": "Aparelho",
+        "button2": "Suporte"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-advogado.png",
+        "title": "Problema na justiça?",
+        "about": "Se está enfrentando um processo do vizinho, chame um profissional jurídico para te defender. Na Bicco, encontre uma variedade completa de serviços jurídicos para auxiliar, defender e oferecer suporte. Se precisa de uma consultoria, estamos aqui.",
+        "button1": "Chat privado",
+        "button2": "Anonimos"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-tecnico-ar-condicionado.png",
+        "title": "Não está gelando?",
+        "about": "Seu ar-condicionado está agindo de forma diferente? Não está resfriando como antes ou demora mais para climatizar? Não se preocupe! Venha para a Bicco, onde encontra os melhores técnicos para resolver o problema.",
+        "button1": "Categoria",
+        "button2": "Parceria"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-desenvolvedor.png",
+        "title": "Precisa de um site ou app?",
+        "about": "Na Bicco, encontre os melhores desenvolvedores para atender às suas necessidades. Se precisa de um site para seu novo negócio, ou até mesmo um aplicativo, conte conosco. Basta colocar sua proposta em andamento.",
+        "button1": "Projeto",
+        "button2": "Setor"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-professor.png",
+        "title": "Não entendeu um assunto?",
+        "about": "Chame um professor particular via chat de vídeo para esclarecer assuntos complexos do ensino médio ou acadêmico. Na Bicco, é possível formar turmas de alunos em um determinado assunto, com prazos definidos de ingresso, início e término.",
+        "button1": "Assunto",
+        "button2": "Turma"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-designer.png",
+        "title": "Precisa de design?",
+        "about": "Precisando de ilustrações para seu negócio, uma apresentação em palestra, uma reunião ou para promover um projeto independente nas redes sociais? Na Bicco, encontre uma ampla seleção de designers experientes prontos para atender às suas necessidades.",
+        "button1": "Amostras",
+        "button2": "Aprender"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-pedreiro.png",
+        "title": "Parede rachada?",
+        "about": "A casa está quase caindo? Haha! Vá para a Bicco! Temos excelentes profissionais prontos para realizar aquela reforma em sua casa. Na Bicco, você pode solicitar uma visita do profissional para avaliar o orçamento necessário para a obra.",
+        "button1": "Solicitar visita",
+        "button2": "Recomendações"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-pintor.png",
+        "title": "Tinta sumiu?",
+        "about": "Na Bicco, encontre uma diversidade de pintores com estilos e gostos diversos. Explore suas amostras de trabalho, veja fotos do antes e depois de cada serviço, avalie e escolha o pintor perfeito para transformar sua casa.",
+        "button1": "Amostras",
+        "button2": "Estilos"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-eletricista.png",
+        "title": "Faltou energia?",
+        "about": "Você estava jogando tranquilamente quando ocorreu um curto-circuito inesperado. O que fazer? Corra para a Bicco! Temos uma seção especializada em emergências, onde seu pedido é tratado como prioridade na busca por profissionais. Eles entrarão em contato.",
+        "button1": "Emergencia",
+        "button2": "Atendimento"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-mecanico.png",
+        "title": "Carro ficou no prego?",
+        "about": "Estava prestes a sair de casa para o trabalho e o carro não quer ligar? Na Bicco, encontre o mecânico mais recomendado e experiente para te ajudar em situações de última hora. Escolha o tipo de serviço e a prioridade, e nunca mais fique na mão. Conte conosco!",
+        "button1": "Serviços",
+        "button2": "Regulamentos"
+    },
+    {
+        "url": "/imgs/section-slide/ilustracao-limpador-vidro.png",
+        "title": "Janelas embaçadas?",
+        "about": "Seu escritório na empresa ou o seu escritório residencial está com aquelas janelas que dão desgosto? Não se preocupe! Chame um profissional especializado e veja suas janelas ganharem vida novamente. Além disso, você também pode montar uma equipe desses.",
+        "button1": "Equipe",
+        "button2": "Avisos"
+    }
+]

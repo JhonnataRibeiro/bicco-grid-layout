@@ -1,0 +1,61 @@
+.guiaDidatico {
+  display: grid; /* Define o tipo de comportamento da caixa */
+  grid-template-columns: 25% 25% 25%; /* Aki especifica o tamanho e quantiade das colunas */
+  grid-template-columns: 1fr 3fr; /* Nova medida fr (fracional) especifica o tamanho e quantidade das colunas */
+  grid-template-columns: minmax(200px, 1fr) 1fr 1fr; /* Define um tamanho minino da primeira coluna e o tamanho maximo tambem da coluna, e se o conteudo for maior, não vai fazer ele crescer e o conteu vai estourado o espaço dele */
+  grid-template-columns: minmax(50px, 100px) 1fr 1fr; /* Na primeira coluna vai ter o tamanho minimo de 50px e o maximo de 100px */
+  grid-template-columns: repeat(3, 1fr); /* Vai repetir 3 vezes pra um grid de 3 colunas com 1fr de tamanho para ambos */
+  grid-template-columns: repeat(3, 1fr) 2fr; /* Vai repetir 3 vezes e a quarta coluna vai ser o 2fr */
+  grid-template-columns: repeat(auto-fit, 100px); /* Vai calcular automaticamente o total de colunas */
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto)); /* Deixa responsivo a quantidade de coluna em relação o tamanho da caixa pai */
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto)); /* O auto-fill aproveita o máximo pra criar de coluna se poder se colocado, mesmo se não tiver mais item, já o auto-fit ele vai crescer os item pra ficar certinho a coluna com a quantidade de items */
+  grid-template-rows: 1fr 2fr 1fr 3fr; /* Especifica a quantidade de linha e a largura de cada linha */
+  grid-template-rows: 100px 400px auto; /* Usando px como medida e auto para tamanho calculado automaticamente */
+  grid-template-rows: repeat(3, 200px); /* Vai repetir 3 vezes o tamanho da linha com rows */
+  grid-template-areas: "a b c"; /* Define coluna com com texto criado */
+  grid-template-areas: 
+    "a b c"
+    "d e f"
+  ; /* Nomeie colunas e linhas pra orgazinar os item chamando "grid-area: value" e coloque onde quiser */
+  grid-template: 100px 400px 100px / 300px 300px; /* Form simplificada de columns e rows, OBS: primeiro é linhas e depois é colunas */
+  grid-template:
+    "a b c" 100px
+    "d e f" 100px
+    / 1fr 4fr 1fr
+  ;/* Usando a simplificação de columns rows e areas, agora colocando valores na linhas e depois em colunas */
+  column-gap: 10px; /* Dá um espaçamento entre as colunas entre os items */
+  row-gap: 10px; /* Dá um espaçamento entre as linhas entre os items */
+  gap: 20px; /* Forma simplificada de column e row gap, espaçamento entre os items */
+  gap: 10px 40px; /* Espaçamento primeiro na linha e depois na coluna */
+  grid-auto-columns: 100px; /* Cria o tamanho especificado automatico para todas as colunas, OBS: se setar valor de grid-template-columns, o grid-auto-columns vai ser para os restante */
+  grid-column: 1; /* Força o item ficar na coluna 1 da demais colunas */
+  grid-auto-rows: 100px; /* Cria o tamamho especificado automatico para todas as linhas */
+  grid-row: 1; /* Força o item ir para linha 1 sendo que a origem dele é 3 */
+  grid-auto-flow: column; /* Define automaticamente todos os items para ficar em coluna */
+  grid-column: 3; /* Força o item ficar sozinho na coluna 3 */
+  grid-column: span 3; /* Força o item ficar na coluna 3 e preenche a coluna 1 e 2 */
+  grid-row: span 3; /* Força o item ficar na linha 3 e preenche a linha 1 e 2 */
+  grid-auto-flow: dense; /* Vai colocar os items que estão pra baixo se unir nos espaços em branco que cabe eles deixando o grid todo preenchido sem sobrar espaço */
+  grid: 100px / 1fr 1fr 1fr; /* grid é uma simplificação para tudo de grid-tamplate-rows, grid-template-columns, grid-tamplate-areas, grid-auto-rows, grid-auto-columns e grid-auto-flow */
+  justify-content: center; /* Vai alinhar os items no centro horizontalmente */
+  align-content: center; /* Vai alinhar os items no centro verticalmente */
+  justify-items: start; /* Ajusta o tamanho da caixa do item para o tamanho do conteudo dentro do item, aí escolhe se é no inicio meio ou fim */
+  align-items: end; /* Ajusta o tamanho do item pro fim da caixa do item levando o conteudo */
+  grid-column: 1 / -1; /* Faz o item expandir da coluna 1 até a coluna máxima */
+  grid-column: 1 / 4; /* Faz o item expandir da coluna 1 até a coluna 3 (sempre coloque um a mais pra ser referente ao anterior) */
+  grid-column: 1 / span 3; /* Vai ficar na colona 1 e vai expandir 2 colunas */
+  grid-column-start: 1; /* Especifica onde vai começa na coluna o item */
+  grid-column-end: 4; /* Define onde vai ser o fim do item, OBS: ele vai preencher até onde definiu */
+  grid-template-columns: [coluna1] 1fr [coluna2] 1fr [coluna3]; /* Nomeia as colunas pra ser mais fácil de orgazinar os items em quais colunas vai ficar e quantas vai ocupar */
+  grid-row: 2; /* Obriga o item ir para a linha 1 */
+  grid-row: 2 / 4; /* Faz o item ficar na linha 2 e preencher a linha 3 */
+  grid-row: 1 / span 5; /* Faz o item de expandir da linha 1 até a linha 4 usando o span */
+  grid-row: 1 / 5; /* OBS: é preciso do grid-auto-rows pra seja vizualizando senão vai ser linhas invisivel */
+  grid-template-rows: [linha1] 50px [linha2] 50px [linha3]; /* Nomeie as linhas pra ser mais facil de usar pra organizar e dá espaços para os items */
+  grid-row-start: 1; /* Especifica onde o item vai iniciar a linha */
+  grid-row-end: 3; /* Especifica onde o item vai terminar na linha */
+  grid-area: 2 / 2 / 4 / 4; /* inicio de linha / inicio de coluna / expanda até linha / expanda até coluna */
+  grid-area: span 2 / 3; /* Inicia na coluna 3 pois a 1 e 2 tá com span e expanda até linha 2 especifiando com 3 */
+  justify-self: center; /* Altera apenas o item selecionado posicionado horizontalmente no certo  */
+  align-self: center; /* Altera apenas o item selecionada posicionado verticalmente no centro */
+}

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --branco: #ffffff;
+  --preto: #242323;
+  --amarelo: rgb(247, 182, 85);
+  --azul: rgb(67, 182, 211);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: var(--branco);
+  color: var(--preto);
+}
+
+header {
+  height: 10vh;
+}
+
+.btn {
+  background-color: var(--azul);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--branco);
+  border: none;
+  padding: 12px 16px;
+  border-radius: 20px;
+}
+
+/* HEADER */
+.grid-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.315);
+}
+
+.logo-bicco {
+  width: 110px;
+  grid-column: 1;
+}
+
+.nav-bar-header {
+  grid-column: 2 / 7;
+}
+
+.navbar {
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: var(--preto);
+  margin: 0 20px;
+  font-weight: 600;
+}
+
+.btn-entrar {
+  grid-column: 7;
+}
+
+/* SECTION SLIDE */
+.grid-slide {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.lado1 {
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  align-content: center;
+}
+
+.title-categoria {
+  font-size: 40px;
+  margin: 5px 0px 5px 20px;
+}
+
+.about-categoria {
+  width: 80%;
+  margin: 5px 0px 5px 20px;
+}
+
+.btn-categoria {
+  margin: 20px 0px 20px 20px;
+}
+
+.title-info {
+  margin: 5px 0px 5px 20px;
+}
+
+.about-info {
+  margin: 5px 0px 5px 20px;
+  width: 80%;
+}
+
+.lado2 {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.img-slide {
+  width: 350px;
+  margin: 5px 0;
+}
+
+.title-slide {
+  margin: 5px 0;
+  font-size: 25px;
+}
+
+.about-slide {
+  width: 80%;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.btn-slide {
+  margin: 5px 5px;
+}
+
+.seta {
+  margin: 5px 3px;
+  width: 20px;
+}
+
+
+/* SOBRE */
+.grid-sobre {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box-sobre {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+}
+
+.box-img-sobre {
+  display: grid;
+  justify-items: end;
+  align-items: center;
+}
+
+.box-img-sobre img {
+  margin-right: 20px;
+}
+
+.box-content-sobre {
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  align-content: center;
+}
+
+.img-sobre {
+  width: 200px;
+  grid-column: 1;
+}
+
+.title-sobre {
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+.about-sobre {
+  width: 90%;
+  margin: 5px 0;
+}
+
+.btn-sobre {
+  margin: 5px 0;
+}
+
+/* FOOTER */
+.grid-footer {
+  background-color: black;
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr;
+}
+
+.box-navbar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.nav-topico {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  align-content: start;
+}
+
+.box-navbar h4 {
+  color: var(--branco);
+  width: 150px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin: 10px 0;
+  border-bottom: 1px solid var(--branco);
+}
+
+.box-navbar ul {
+  list-style-type: none;
+}
+
+.box-navbar li {
+  margin-bottom: 5px;
+}
+
+.box-navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: var(--branco);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.box-rede-social {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.box-rede-social h4 {
+  font-size: 20px;
+  color: var(--branco);
+}
+
+.logo-rede {
+  width: 40px;
+}
+
+.instagram {
+  width: 26px;
+}
+
+.twitter {
+  margin-left: -8px;
+  margin-right: 20px;
+}
